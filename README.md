@@ -54,16 +54,16 @@
 
 #### ⚡ Details
 
-<span>Frontend Web</span> - Next.js (TypeScript), React Query, React Hook Form, Tailwind CSS, HTML
+**Web**</span> - Next.js (TypeScript), React Query, React Hook Form, Tailwind CSS, HTML
 <br />
-Mobile - React Native (TypeScript), Tailwind CSS
+**Mobile** - React Native (TypeScript), Tailwind CSS
 <br />
-Backend - Nest.js (TypeScript)
+**Backend** - Nest.js (TypeScript)
 <br />
-Database - MongoDB (Chat), MySQL (User details), Redis (Intermediate storage)
+**Database** - MongoDB (Chat), MySQL (User details), Redis (Intermediate storage)
 <br />
-Frontend to Backend Communication - Socket.io, GraphQL, REST
+**Frontend to Backend Communication** - Socket.io, GraphQL, REST
 <br />
-Deployment - Docker, AWS, Vercel
+**Deployment** - Docker, AWS, Vercel
 <br />
-Support - Notion
+**Support** - Notion

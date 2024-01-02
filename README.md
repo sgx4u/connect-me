@@ -32,8 +32,8 @@
 ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
 ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
@@ -52,4 +52,18 @@
 
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 
-<p>Microservice calls - gRPC</p>
+#### ⚡ Details
+
+<span>Frontend Web</span> - Next.js (TypeScript), React Query, React Hook Form, Tailwind CSS, HTML
+<br />
+Mobile - React Native (TypeScript), Tailwind CSS
+<br />
+Backend - Nest.js (TypeScript)
+<br />
+Database - MongoDB (Chat), MySQL (User details), Redis (Intermediate storage)
+<br />
+Frontend to Backend Communication - Socket.io, GraphQL, REST
+<br />
+Deployment - Docker, AWS, Vercel
+<br />
+Support - Notion

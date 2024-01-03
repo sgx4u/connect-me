@@ -3,25 +3,63 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+	--text: 217 33% 17%; /* #1e293b */
+	--text-secondary: 0 0% 100%; /* #ffffff white */
+
+	--bg: 0 0% 100%; /* #ffffff white */
+	--bg-dark: 217 33% 17%; /* #1e293b */
+
+	--overlay-dark: 0 0% 0% / 0.55; /* #000000 */
+
+	--info-light: 230 94% 82%; /* #a5b4fc indigo-300 */
+	--info: 243 75% 59%; /* #4f46e5 indigo-600 */
+	--info-dark: 244 55% 41%; /* #3730a3 indigo-800 */
+
+	--success-light: 156 72% 67%; /* #6ee7b7 emerald-300 */
+	--success: 160 84% 39%; /* #10b981 emerald-500 */
+	--success-dark: 163 94% 24%; /* #047857 emerald-700 */
+
+	--warn-light: 48 97% 77%; /* #fde68a amber-200 */
+	--warn: 43 96% 56%; /* #fbbf24 amber-400 */
+	--warn-dark: 38 92% 50%; /* #f59e0b amber-500 */
+
+	--error-light: 0 94% 82%; /* #fca5a5 red-300 */
+	--error: 0 84% 60%; /* #ef4444 red-500 */
+	--error-dark: 0 74% 42%; /* #b91c1c red-700 */
+
+	--neutral-extraLight: 210 40% 98%; /* #f8fafc slate-50 */
+	--neutral-light: 214 32% 91%; /* #e2e8f0 slate-200 */
+	--neutral: 215 20% 65%; /* #94a3b8 slate-400 */
+	--neutral-dark: 215 16% 47%; /* #64748b slate-500 */
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+	:root {
+	}
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer utilities {
+	html {
+		font-family: 'Poppins', sans-serif;
+	}
+
+	:is(html, body) {
+		@apply h-full w-full;
+	}
+
+	:is(h1, h2, h3, h4, h5, h6, p, span, li, label) {
+		@apply text-text;
+	}
+
+	:is(button, a, input) {
+		@apply outline outline-2 outline-offset-2 outline-transparent;
+	}
+
+	.app-input-default {
+		@apply border-0 outline-0 ring-2 ring-inset ring-neutral-light transition-all hover:bg-neutral-extraLight focus:bg-neutral-extraLight focus:ring-2 focus:ring-inset focus:ring-info;
+	}
+
+	.app-input-error {
+		@apply border-0 outline-0 ring-2 ring-inset ring-error focus:bg-neutral-extraLight focus:ring-2 focus:ring-inset focus:ring-error;
+	}
 }

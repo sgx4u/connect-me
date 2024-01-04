@@ -5,7 +5,7 @@
 
 <br />
 
-#### 📌 App Link -
+#### 📌 App Link - 'https://connect-me-alpha.vercel.app'
 
 #### 📐 Project Setup (Frontend)
 
